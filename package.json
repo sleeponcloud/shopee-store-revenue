@@ -1,0 +1,33 @@
+{
+  "name": "shopee-store-revenue-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./index.js",
+    "build": "./node_modules/.bin/pkg ./package.json"
+  },
+  "author": {
+    "name": "JiaYu Hsu",
+    "email": "pingu@triplea-medtech.com"
+  },
+  "license": "ISC",
+  "bin": "./index.js",
+  "pkg": {
+    "scripts": [],
+    "assets": [],
+    "targets": [
+      "node14-linuxstatic-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cli-progress": "^3.10.0",
+    "minimist": "^1.2.5",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.5.2"
+  }
+}
